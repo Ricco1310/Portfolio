@@ -49,26 +49,29 @@ html {
 .btn-primary:active:focus{
     background: orangered;
 }
+.modal-lg {
+    width: calc(100% - 30px);
+  }
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
+    padding: 90px;
     height: 100%;
-    padding-top: 90px;
     text-align: center;
 }
 
 .about-section {
+    padding: 70px;
     height: 100%;
-    padding-top: 70px;
     text-align: center;
     background: lightgray;
 }
 
 .portfolio-section {
+    padding: 70px;
     height: 100%;
-    padding-top: 70px;
     text-align: center;
     background: gray;
 }
@@ -77,10 +80,13 @@ of those sections to manage the look and feel of the site. */
     cursor: pointer;
     width: 100%;
 }
+.portfolio-section img:hover{
+    transform: scale(1.1);
+}
 
 .contact-section {
+    padding: 70px;
     height: 100%;
-    padding-top: 70px;
     text-align: center;
     background: lightgray;
 }
