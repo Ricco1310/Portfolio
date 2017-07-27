@@ -35,58 +35,70 @@ html {
   display: flex;
   align-items: center;
 }
+
 .navbar-brand>img {
   height: 100%;
   padding: 5px 10px;
   width: auto;
 }
-.btn-primary{
+
+/*.btn-primary{
     background: orange;
 }
+
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:active:focus{
     background: orangered;
-}
+}*/
+
 .modal-lg {
     width: calc(100% - 30px);
   }
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
+
+.sectionHeader{
+    font-size: 50px;
+}
 
 .intro-section {
     padding: 90px;
-    height: 100%;
+    min-height: 100%;
     text-align: center;
 }
 
-.about-section {
+.introWord{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 80px 0 40px;
+    color: white;
+}
+
+.work-section {
     padding: 70px;
-    height: 100%;
+    min-height: 100%;
     text-align: center;
     background: lightgray;
 }
 
-.portfolio-section {
+.about-section {
     padding: 70px;
-    height: 100%;
+    min-height: 100%;
     text-align: center;
     background: gray;
 }
 
-.portfolio-section img{
+.work-section img{
     cursor: pointer;
     width: 100%;
 }
-.portfolio-section img:hover{
+.work-section img:hover{
     transform: scale(1.1);
 }
 
 .contact-section {
     padding: 70px;
-    height: 100%;
+    min-height: 100%;
     text-align: center;
     background: lightgray;
 }
