@@ -57,6 +57,11 @@ p{
     background: orangered;
 }*/
 
+.pageSection {
+    padding: 70px 0;
+    min-height: 100%;
+    text-align: center;
+}
 .modal-lg {
     width: calc(100% - 30px);
   }
@@ -67,8 +72,6 @@ p{
 
 .intro-section {
     padding: 90px 0;
-    min-height: 100%;
-    text-align: center;
     color: white;
 }
 
@@ -79,36 +82,53 @@ p{
 }
 
 .work-section {
-    padding: 70px 0;
-    min-height: 100%;
-    text-align: center;
     background: lightgray;
 }
 
 .about-section {
-    padding: 70px 0;
-    min-height: 100%;
-    text-align: center;
     background: gray;
+}
+
+#myPhoto {
+    margin: 0 0 10px 0;
 }
 
 .work-section img{
     cursor: pointer;
     width: 100%;
     margin-top: 5px;
+    transition: transform 0.5s;
 }
 .work-section img:hover{
     transform: scale(1.1);
 }
 
 .contact-section {
-    padding: 70px 0;
-    min-height: 100%;
-    text-align: center;
     background: lightgray;
 }
 
+.portfolioItemHeading-section {
+    padding: 110px 0;
+    background: lightgray;  
+}
+
+.infoSection-section {
+    background: gray;
+}
+
+.infoSection-section img {
+    cursor: pointer;
+    margin: 10px 0;
+    width: 100%;
+    transition: transform 0.5s;
+}
+
+.infoSection-section img:hover {
+    transform: scale(1.1);
+}
+
 .footer-section{
+    padding-top: 5px;
     text-align: center;
     background: #222;
     color: #9d9d9d;
