@@ -47,7 +47,7 @@ p{
     font-size: 20px;
 }
 /*.btn-primary{
-    background: orange;
+    background: skyblue;
 }
 
 .btn-primary:hover,
@@ -58,21 +58,28 @@ p{
 }*/
 
 .pageSection {
-    padding: 70px 0;
+    padding: 5px;
     min-height: 100%;
     text-align: center;
 }
+
+.page-header {
+    border-bottom: 1px solid #222;
+}
+
 .modal-lg {
     width: calc(100% - 30px);
   }
 
-.sectionHeader{
-    font-size: 50px;
-}
-
 .intro-section {
     padding: 90px 0;
     color: white;
+}
+
+@media(max-width:767px) {
+    .intro-section {
+    padding: 20px 0 0;
+    }
 }
 
 .introWord{
@@ -81,12 +88,19 @@ p{
     margin: 80px 0 40px;
 }
 
+@media(max-width:767px) {
+    .introWord{
+    padding: 20px;
+    margin: 20px 0;
+    }
+}
+
 .work-section {
     background: lightgray;
 }
 
 .about-section {
-    background: gray;
+    background: lightgray;
 }
 
 #myPhoto {
@@ -113,7 +127,7 @@ p{
 }
 
 .infoSection-section {
-    background: gray;
+    background: lightgray;
 }
 
 .infoSection-section img {
