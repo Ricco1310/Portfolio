@@ -7,10 +7,10 @@
 body {
     width: 100%;
     height: 100%;
-    background-image: url(http://spacenews.com/wp-content/uploads/2015/02/SLS_Orion_Launch-NASA.jpg);
+    background: url(../images/achtergrond_zonder2.jpg) no-repeat fixed center lightgray;
     background-size: cover;
-    background-attachment: fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
 html {
@@ -18,7 +18,11 @@ html {
     height: 100%;
 }
 
-@media(min-width:767px) {
+.navbar {
+    box-shadow: gray;
+}
+
+/*@media(min-width:767px) {
     .navbar {
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -29,7 +33,7 @@ html {
     .top-nav-collapse {
         padding: 0;
     }
-}
+}*/
 
 .navbar-brand {
   padding: 0px;
@@ -58,9 +62,10 @@ p{
 }*/
 
 .pageSection {
-    padding: 5px;
-    min-height: 100%;
+    padding: 50px 0 0;
+    min-height: 95%;
     text-align: center;
+
 }
 
 .page-header {
@@ -74,6 +79,10 @@ p{
 .intro-section {
     padding: 90px 0;
     color: white;
+    background: none;
+    background: url(../images/achtergrond.jpg) no-repeat fixed center lightgray;
+    background-size: cover;
+    
 }
 
 @media(max-width:767px) {
@@ -95,14 +104,6 @@ p{
     }
 }
 
-.work-section {
-    background: lightgray;
-}
-
-.about-section {
-    background: lightgray;
-}
-
 #myPhoto {
     margin: 0 0 10px 0;
 }
@@ -117,17 +118,8 @@ p{
     transform: scale(1.1);
 }
 
-.contact-section {
-    background: lightgray;
-}
-
 .portfolioItemHeading-section {
     padding: 110px 0;
-    background: lightgray;  
-}
-
-.infoSection-section {
-    background: lightgray;
 }
 
 .infoSection-section img {
@@ -142,6 +134,7 @@ p{
 }
 
 .footer-section{
+    min-height: 5%;
     padding-top: 5px;
     text-align: center;
     background: #222;
