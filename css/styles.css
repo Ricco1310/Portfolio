@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    background: url(../images/achtergrond_zonder2.jpg) no-repeat fixed center lightgray;
+    background: url(../images/achtergrond_3.jpg) no-repeat fixed center dimgray;
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
@@ -61,15 +61,19 @@ p{
     background: orangered;
 }*/
 
+.well {
+    background: dimgray;
+}
+
 .pageSection {
-    padding: 50px 0 0;
+    padding: 50px 0 20px;
     min-height: 95%;
     text-align: center;
-
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .page-header {
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid #337ab7;
 }
 
 .modal-lg {
@@ -77,17 +81,14 @@ p{
   }
 
 .intro-section {
-    padding: 90px 0;
-    color: white;
-    background: none;
-    background: url(../images/achtergrond.jpg) no-repeat fixed center lightgray;
+    background: url(../images/achtergrond.jpg) no-repeat fixed center dimgray;
     background-size: cover;
     
 }
 
 @media(max-width:767px) {
     .intro-section {
-    padding: 20px 0 0;
+    padding: 20px 0;
     }
 }
 
@@ -108,11 +109,46 @@ p{
     margin: 0 0 10px 0;
 }
 
+.overlay-container {
+    position: relative;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.overlay-container:hover .overlay-content {
+    opacity: 1;
+    background-color: rgba(40, 96, 144, 0.6);
+}
+
+.overlay-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
 .work-section img{
     cursor: pointer;
     width: 100%;
-    margin-top: 5px;
+    margin-top: 20px;
     transition: transform 0.5s;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 .work-section img:hover{
     transform: scale(1.1);

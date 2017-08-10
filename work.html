@@ -45,7 +45,7 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li>
+                    <li class="active">
                         <a class="page-scroll" href="#page-top">My Work</a>
                     </li>
                     <li>
@@ -65,12 +65,13 @@
     <!-- work Section -->
     <section id="work" class="work-section pageSection">
 
-        <div class="container">
+        <div class="container-fluid">
 
-
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1 class="page-header text-primary"><em>My Work</em></h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 class="page-header"><em>My Work</em></h1>
+                    </div>
                 </div>
             </div>
 
@@ -81,7 +82,14 @@
                     <h1>School Work</h1>
                     <div class="col-sm-4">
                         <h2>TomTom Curfer</h2>
-                        <a href="tomtom.html"><img src="images\TomTom1.png" class="img-responsive" alt="projec TomTom Curfert"></a>
+                        <a href="tomtom.html">
+                            <div class="overlay-container ">
+                                <img src="images\TomTom1.png" class="image-responsive" alt="project TomTom Curfer">
+                                <div class="overlay-content">
+                                    <div class="overlay-text">TomTom Curfer<br>Research project</div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-sm-4">
                         <h2>Webshop Redesign</h2>
@@ -102,7 +110,7 @@
 
                     <div class="col-sm-4">
                         <h2>Processing Project</h2>
-                        <a href="tomtom.html"><img src="images\Lavafloor1.png" class="img-responsive" alt="project Processing Project"></a>
+                        <a href="tomtom.html"><img src="images\Processing_lavafloor.png" class="img-responsive" alt="project Processing Project"></a>
                     </div>
                     <div class="col-sm-4">
                         <h2>Programming</h2>
@@ -129,11 +137,6 @@
                 </div>
             </div>
         </div>
-
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section pageSection">
 
         <div class="container">
 
