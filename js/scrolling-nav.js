@@ -17,3 +17,7 @@ $(function() {
         event.preventDefault();
     });
 });
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});

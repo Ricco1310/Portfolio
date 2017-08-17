@@ -62,7 +62,7 @@ p{
 }*/
 
 .well {
-    background: dimgray;
+    background: rgba(255, 255, 255, .2);
 }
 
 .pageSection {
@@ -167,6 +167,12 @@ p{
 .infoSection-section img:hover {
     transform: scale(1.1);
 }
+
+.vwcenter { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 .footer-section{
     min-height: 5%;
