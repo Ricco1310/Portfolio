@@ -153,6 +153,10 @@ p{
     transform: scale(1.1);
 }
 
+.overlay-container:hover img{
+    transform: scale(1.1);
+}
+
 .portfolioItemHeading-section {
     padding: 110px 0;
 }
